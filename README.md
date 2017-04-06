@@ -18,7 +18,7 @@ Connect the shield to the Arduino pins as follows:
   * CS: pin 6
   * ACK: pin 7
 
-*  Pins Arduino UNO:
+* Pins Arduino UNO:
   * ***** NOTE: Arduino GPIOs supply 5V => Innocomm GPIOs expects a 3V3 so level-shifter may be required *****
   * SCLK: pin 13
   * SDO/MISO: pin 12
