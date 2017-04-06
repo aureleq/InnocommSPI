@@ -12,19 +12,19 @@ The sigfox module is based on NXP OL2385 chip. Code should be compatible with an
 Connect the shield to the Arduino pins as follows:
 
 * Pins Arduino MKR1000:
-  > SCLK: pin 9
-  > SDO/MISO: pin 10
-  > SDI/MOSI: pin 8
-  > CS: pin 6
-  > ACK: pin 7
+  * SCLK: pin 9
+  * SDO/MISO: pin 10
+  * SDI/MOSI: pin 8
+  * CS: pin 6
+  * ACK: pin 7
 
 *  Pins Arduino UNO:
-  > ***** NOTE: Arduino GPIOs supply 5V => Innocomm GPIOs expects a 3V3 so level-shifter may be required *****
-  > SCLK: pin 13
-  > SDO/MISO: pin 12
-  > SDI/MOSI: pin 11
-  > CS: pin 8
-  > ACK: pin 9
+  * ***** NOTE: Arduino GPIOs supply 5V => Innocomm GPIOs expects a 3V3 so level-shifter may be required *****
+  * SCLK: pin 13
+  * SDO/MISO: pin 12
+  * SDI/MOSI: pin 11
+  * CS: pin 8
+  * ACK: pin 9
 
 ## Usage
 3 functions have been defined in loop() to send payloads:
